@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ApiResponseFormatingApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ApiResponseFormatingApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ApiResponseFormatingApplication.class, args);
+    }
 
 }

@@ -1,7 +1,8 @@
 package org.qsheker.apiresponseformating.service;
 
-import org.springframework.stereotype.Service;
+import org.qsheker.apiresponseformating.visitor.ApiResponse;
+import org.qsheker.apiresponseformating.visitor.ResponseFormatterVisitor;
 
-@Service
-public class ResponseFormatService {
+public interface ResponseFormatService {
+    String accept(ResponseFormatterVisitor visitor, ApiResponse apiResponse);
 }

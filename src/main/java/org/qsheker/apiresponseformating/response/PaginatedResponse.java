@@ -1,9 +1,6 @@
 package org.qsheker.apiresponseformating.response;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.qsheker.apiresponseformating.visitor.ApiResponse;
 import org.qsheker.apiresponseformating.visitor.ResponseFormatterVisitor;
 
